@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Telecord</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Font Awesome -->
+	<link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet"/>
+	<!-- Google Fonts -->
+	<!-- <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" /> -->
+	<!-- MDB -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.css" rel="stylesheet"/>
+
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+		@font-face {
+		    font-family: 'muliregular';
+		    src: url('font/muli-webfont.woff2') format('woff2'),
+		         url('font/muli-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'mulibold';
+		    src: url('font/muli-bold-webfont.woff2') format('woff2'),
+		         url('font/muli-bold-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'mulibolditalic';
+		    src: url('font/muli-bolditalic-webfont.woff2') format('woff2'),
+		         url('font/muli-bolditalic-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+		@font-face {
+		    font-family: 'mulilight';
+		    src: url('font/muli-light-webfont.woff2') format('woff2'),
+		         url('font/muli-light-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		@font-face {
+		    font-family: 'muliextralight';
+		    src: url('font/muli-extralight-webfont.woff2') format('woff2'),
+		         url('font/muli-extralight-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'muliextralightitalic';
+		    src: url('font/muli-extralightitalic-webfont.woff2') format('woff2'),
+		         url('font/muli-extralightitalic-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'muliregularitalic';
+		    src: url('font/muli-italic-webfont.woff2') format('woff2'),
+		         url('font/muli-italic-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'fmulilightitalic';
+		    src: url('font/muli-lightitalic-webfont.woff2') format('woff2'),
+		         url('font/muli-lightitalic-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'mulisemibold';
+		    src: url('font/muli-semibold-webfont.woff2') format('woff2'),
+		         url('font/muli-semibold-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+
+
+		@font-face {
+		    font-family: 'mulisemibolditalic';
+		    src: url('font/muli-semi-bolditalic-webfont.woff2') format('woff2'),
+		         url('font/muli-semi-bolditalic-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		.header-hero {
+			/*height: 100vh;*/
+		}
+
+		.bg-gradient-1 {
+			background: #5127c1; 
+			background: -webkit-linear-gradient(to right, #9959e3, #5127c1); 
+			background: linear-gradient(to right, #9959e3, #5127c1); 
+		}
+
+		.bg-gradient-2 {
+			background: #fd7fa9; 
+			background: -webkit-linear-gradient(to right, #ff6197, #fd7fa9);  
+			background: linear-gradient(to right, #ff6197, #fd7fa9); 
+		}
+
+		.bg-none {
+			background: transparent;
+			box-shadow: none;
+			color: #fff;
+		}
+
+		.btn {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 600;
+			text-transform: none;
+		}
+
+		.navbar-brand {
+			font-weight: 800;
+			font-size: 29px;
+			width: 100px;
+		}
+
+		.nav-link {
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		.hero-title {
+			font-size: 53px;
+			font-family: 'mulibold';
+			color: #fff;
+			font-weight: 800;
+		}
+
+		.hero-subtitle {
+			font-size: 57px;
+			font-family: 'muliextralight';
+			color: #fff
+		}
+
+		.hero-mini-subtitle {
+			font-size: 22px;
+			font-family: 'mulilight';
+			color: #fff
+		}
+
+		#comun-agency {
+			font-size: 13px;
+			font-weight: 300;
+		}
+
+		#tel-cord {
+			margin-bottom: -0.5rem;
+		}
+
+		#learn-more-btn {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			padding-left: 3.8rem;
+			padding-right: 3.8rem;
+			font-size: 15px;
+		}
+	</style>
+</head>
+<body>
+	<header class="container-fluid header-hero bg-gradient-1">
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-none">
+		  <!-- Container wrapper -->
+		  <div class="container-fluid mt-2">
+		    <!-- Navbar brand -->
+		    <div class="navbar-brand ml-5 pl-5 pt-2 d-flex" href="#">
+		    	<!-- <div>
+		    		<p id="tel-cord">telecord</p>
+		    	</div>
+		    	<p id="comun-agency" class="ml-5">communication agency</p> -->
+		    	<img src="logo.png">
+		    </div>
+
+		    <!-- Toggle button -->
+		    <button
+		      class="navbar-toggler"
+		      type="button"
+		      data-toggle="collapse"
+		      data-target="#navbarSupportedContent"
+		      aria-controls="navbarSupportedContent"
+		      aria-expanded="false"
+		      aria-label="Toggle navigation"
+		    >
+		      <i class="fas fa-bars"></i>
+		    </button>
+
+		    <!-- Collapsible wrapper -->
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <!-- Left links -->
+		      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+		        <li class="nav-item  mr-3 ml-3">
+		          <a class="nav-link active" aria-current="page" href="#">Home</a>
+		        </li>
+		        <li class="nav-item  mr-3 ml-3">
+		          <a class="nav-link active" aria-current="page" href="#">About</a>
+		        </li>
+		        <li class="nav-item  mr-3 ml-3">
+		          <a class="nav-link active" aria-current="page" href="#">Services</a>
+		        </li>
+		        <li class="nav-item  mr-3 ml-3">
+		          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+		        </li>
+		        <li class="nav-item  mr-3 ml-3">
+		          <a class="nav-link active" aria-current="page" href="#">Contacts</a>
+		        </li>
+		      
+		      
+		       
+		        <!-- Navbar dropdown -->
+		       
+		      </ul>
+		      <!-- Left links -->
+
+		      <!-- Search form -->
+		    
+		    </div>
+		    <!-- Collapsible wrapper -->
+		  </div>
+		  <!-- Container wrapper -->
+		</nav>
+		<div class="container p-5">
+			<div class="row p-5 d-flex justify-content-center">
+				<div class="col-lg-8">
+					<div class="d-flex">
+						<img src="play.png" class="mt-4" width="54" height="54"><h3 class="ml-4 hero-title">We articulate goals and set the strategy</h3>
+					</div>
+					<h4 class="hero-subtitle ml-5 pl-4">for growing your business </h4>
+					<p class="hero-mini-subtitle">At Telecord, we provide industry-leading creative & strategic solutions for you.</p>
+					<button class="btn btn-dark btn-rounded bg-gradient-2" id="learn-more-btn">Learn More</button>
+				</div>
+			</div>
+				
+		</div>
+	
+		<!-- Navbar -->
+	</header>
+
+
+	<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/2.2.1/mdb.min.js"></script>
+</body>
+</html>
